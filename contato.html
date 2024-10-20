@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="projetos.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <header class="center">
+            <div>
+                <img src="./img/Otávio.jpg" alt="Imagem do Autor">
+            </div>
+            <h1>Otávio Aleixo Rodrigues</h1>
+            <h2>Desenvolvedor de Software</h2>
+        </header>
+
+        <form class="contact-form" action="https://formsubmit.co/c0643ee93e35732af1e2d1ea18b26a7b" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" required>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+</body>
+</html>
